@@ -1,10 +1,10 @@
 import { useState, useCallback } from "react";
 
-import Title from "./components/Title";
-import Count from "./components/Count";
-import CountBtn from "./components/CountBtn";
-import Age from "./components/Age";
-import AgeBtn from "./components/AgeBtn";
+import Title from "./components/UseCallback/Title";
+import Count from "./components/UseCallback/Count";
+import CountBtn from "./components/UseCallback/CountBtn";
+import Age from "./components/UseCallback/Age";
+import AgeBtn from "./components/UseCallback/AgeBtn";
 
 const UseCallback = () => {
   const [count, setCount] = useState(0);
